@@ -28,6 +28,9 @@ $result = mysqli_query($link, $query);
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+
+
+	<h1>Привет мир1!</h1>
 <div class="main_conteiner">
 	<div class="container">
 		
