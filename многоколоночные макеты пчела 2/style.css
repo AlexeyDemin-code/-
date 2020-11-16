@@ -1,0 +1,172 @@
+body, p, h1, h2, ul{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: white;
+}
+.wrapper{
+	margin: 0px auto;
+	display: grid;
+	grid-template-rows:  ;
+	grid-template-columns: repeat(5, 1fr);
+background-color: white;
+	width:1000px;
+	text-align: justify;
+	grid-template-areas: 
+						" content content content left right ";
+						
+	margin-bottom: 30px;					
+
+
+}
+.wrapper div{
+	
+}
+.q{
+	background-color: #EBEBEB;
+	height: 20px;
+}
+.w{
+	color: #C60304;
+	
+
+}
+.logo{
+	display: grid;
+	grid-template-columns: 580px 500px;
+	width:1000px;
+	margin: 0px auto;
+}
+#zzz{
+	font-size: 40px;
+}
+#xxx{
+	padding-top: 20px;
+	font-size: 20px;
+}
+.m2{
+	background-color: #EBEBEB;
+}
+.menu2{
+		display: grid;
+
+	width:1000px;
+	margin: 0px auto;
+	grid-template-columns: 110px 60px 60px 115px 90px 250px 200px; 
+	grid-gap: 20px;
+	color: gray;
+	padding:5px 0px;
+
+
+
+}
+.rrr{
+	margin-left:30px;
+}
+.menu2 a  {
+	text-decoration: underline;
+	color: gray
+}
+.menu2 a:hover{
+	text-decoration: none;
+	background: #EBEBEB;
+}
+.m{
+background: #C60304;
+
+}
+.menu{
+	width: 1000px;
+	margin: 0px auto;
+	height: 100%;
+	padding: 10px;
+	
+
+}
+.menu a{
+	color: white;
+	padding: 10px;
+
+	}
+.header{
+grid-area: header;
+background: #F8AA03;
+width: 800px;
+background-size: 100%;
+
+color: white;
+position: relative;
+
+
+
+}
+
+
+.content {
+	grid-area: content;
+	margin: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+text-align: justify ;
+	
+}
+
+.left{
+	grid-area: left;
+	margin: 10px 5px 10px 0px;
+	border: 0px;
+	font-size: 13px;
+	
+}
+.right: {
+	grid-area: right;
+	margin: 10px 5px 10px 0px;
+	border: 0px;
+	font-size: 13px;
+	
+}
+.footer{
+
+}
+.f{
+	background: black;
+
+}
+.footer div{
+background: white;
+padding: 10px;
+
+}
+img{
+	width: 100%
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+}
+a:hover, .www{
+	background-color: #7D0202;
+}
+.eee{
+	color: white;
+	text-align: center;
+}
+.www{
+
+}
+.f{
+	background-color: #EEEEEE;
+}
+.f2{
+	width: 1000px;
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: 300px 700px;
+	padding:20px 0px;
+
+}
+.text{
+	text-align: center;
+}
