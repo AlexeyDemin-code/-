@@ -1,0 +1,32 @@
+﻿body{
+	background-color: #EDEFEB;
+}
+
+.main_conteiner{
+	margin: 30px 40px;
+	background-color: white;
+
+
+}
+
+.conteiner{
+	padding: 10px;
+	text-align: left;
+	
+}
+
+.back_link{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: arial;
+	font-size: 16px;
+}
+
+
+.content{
+	border-bottom: 1px dotted black;
+	border-top: 1px dotted black;
+	font-family: arial;
+}
+
