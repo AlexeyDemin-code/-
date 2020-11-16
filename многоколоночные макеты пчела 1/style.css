@@ -1,0 +1,100 @@
+body, p, h1, h2, ul{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #EBEBEB;
+}
+.wrapper{
+	margin: 20px auto;
+	display: grid;
+	grid-template-rows:  ;
+	grid-template-columns: repeat(3, 1fr);
+background-color: white;
+	width:800px;
+	
+	grid-template-areas: "header header  header  "
+						" content content  left "
+						"footer footer  footer";
+	margin-bottom: 30px;					
+
+
+}
+.wrapper div{
+	
+}
+.header{
+grid-area: header;
+background: #F8AA03;
+width: 800px;
+background-size: 100%;
+
+color: white;
+position: relative;
+
+
+}
+
+
+.content {
+	grid-area: content;
+	margin: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+text-align: justify ;
+	
+}
+.sitebar{
+	grid-area: sitebar;
+	margin: 10px 0px 20px 5px;
+	border: 1px solid black;
+
+}
+.left{
+	grid-area: left;
+	margin: 10px 5px 10px 0px;
+	border: 0px;
+	font-size: 13px;
+	
+}
+.footer{
+	grid-area: footer;
+text-align: center;
+background: #F8AA03;
+	height: 50px;
+	padding-top: 25px;
+}
+
+.menu {
+	
+	
+	
+display: grid;
+grid-template-columns: 72px 97px 86px 103px 100px 54px 56px;
+line-height: 50px;
+margin-left: 20px;
+
+ }
+ .menu div{
+ 	 }
+ .menu a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+ img{
+	width: 100%;
+}
+.tabel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 20px;
+	text-align: center;
+	grid-gap: 2px;
+	}
+.tabel div{
+	border: 1px solid black;
+
+} 
+a:hover, a.www{
+	text-decoration: underline;
+}
