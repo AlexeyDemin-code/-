@@ -1,0 +1,96 @@
+body{
+	background: #B17E4F;
+}
+.logo, .logo a{
+	    color: #CEB6A4;	
+	    width: 960px;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: 500px 500px;
+	margin-top: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+.lll, .lll a{
+	font-size: 44px;
+	color: white;
+}
+.ll{
+	font-size: 16px;
+	padding-top: 58px
+}
+.wrapper{
+	background: white;
+	width: 960px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.menu{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding-bottom: 20px;
+	align-self: center;
+	margin: 10px 0px
+}
+.menu a{
+	background: black;
+	color: white;
+	padding: 20px 70px;
+
+}
+div.menu{
+	text-align: center;
+}
+a.lf {
+	padding-right: 40px;
+}
+img{
+	width: 100%
+}
+.menu a:hover, a.ac {
+	background: #696969;
+
+}
+.content{
+	display: grid;
+	grid-template-areas: "left left left right right  "
+}
+
+.left{
+	grid-area: left;
+
+}
+.right{
+	grid-area: right;
+	display: grid;
+	
+
+}
+.right div{
+	margin-bottom: 20px;
+	background: #EFEDE5;
+	padding: 10px
+
+
+}
+ .right div{
+	
+}
+.spec{
+    background: #5D9EBD;
+    color: white;
+    display:block;
+    padding: 15px;
+    margin-left: -5px
+   
+}
+
+.footer{
+	    background: #D1E4A7;
+	    padding: 15px 0px;
+	    text-align: center;
+}
+
+

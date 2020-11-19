@@ -1,0 +1,119 @@
+body{
+	    background: #EBEBEB 
+}
+.logo, .logo a{
+	    color: #CEB6A4;	
+	    width: 960px;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: 500px 500px;
+	margin-top:10px;
+}
+
+a{
+	text-decoration: none;
+}
+.lll, .lll a{
+	font-size: 60px;
+	color: black;
+}
+.ll{
+	font-size: 16px;
+	padding-top: 58px
+}
+.wrapper{
+	background: white;
+	width: 960px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.menu{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	padding-bottom: 20px;
+	align-self: center;
+	margin: 10px 0px
+
+}
+.menu a{
+	background: #EA9B23;
+	color: white;
+	padding: 15px 53px;
+
+}
+div.menu{
+	text-align: center;
+}
+a.lf {
+	padding-right: 24px;
+}
+img{
+	width: 100%
+}
+.menu a:hover, a.ac {
+	background: #696969;
+
+}
+.content{
+	display: grid;
+	grid-template-areas: "  right left left  "
+}
+
+.left{
+	grid-area: left;
+	margin: 0px 20px
+
+}
+.right{
+	grid-area: right;
+	display: grid;
+		margin: 0px 20px
+
+}
+.right div{
+	margin-bottom: 20px;
+	background:white;
+	padding: 10px;
+	color: orange;
+
+
+}
+ .right a{
+	 border-bottom: 1px solid #EBEBEB;
+	 color: orange;
+	 padding:10px;
+	 display: block;
+	 text-decoration: underline;
+	 background: url(li.gif) no-repeat 0.125em;
+	 padi
+
+}
+.box a{
+	margin-bottom: 0px
+}
+.ccc{
+	color: black;
+	text-align: left;
+	font-size: 20px
+}
+ .right div{
+
+
+}
+ .spec1{
+    color: black;
+    font-size:35px;
+   
+}
+
+
+.footer{
+	    background: white;
+
+	    padding: 25px 0px;
+	    text-align: center;
+	    border-top: 1px solid #EBEBEB;
+	    width: 1000px;
+	    margin: 0px auto
+}
+
